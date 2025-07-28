@@ -14,3 +14,10 @@ text = "helloooo"
 # print(f"o times{count}")
 counts = Counter(text)
 print("count of each char",counts)
+
+a = 5
+b = 10
+print(a,b)
+a, b = b, a
+print(a,b)
+

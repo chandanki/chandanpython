@@ -21,9 +21,9 @@ print(id(x))
 
 str = "welcome"
 # print(str[1:3])  #el
-# print(str[:5])   #bydefault it takes as 0 for starting index
-# print(str[2:])   # consider all after starting index
-# print(str[1:-4])   # deduct last 4 characters from string
+print(str[:5])   #bydefault it takes as 0 for starting index
+print(str[2:])   # consider all after starting index
+print(str[1:-4])   # deduct last 4 characters from string
 print(str[-2:3])
 
 #example 3: get ord() and chr() ascii value
@@ -68,5 +68,14 @@ print(str[-2:3])
 s = "radhe"
 rev_s = s[::-1]
 print(rev_s)
+
+s = "My Name is Chandan"
+print(s[2:-3])
+print(s[-7:-3])
+print(s[::3])
+print(s[::-1])
+
+char = "champs is one"
+print(char[1::1])
 
 

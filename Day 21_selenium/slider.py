@@ -14,11 +14,11 @@ min_slider = driver.find_element(By.XPATH,"//span[1]")
 max_slider = driver.find_element(By.XPATH,"//span[2]")
 
 print("before moving")
-print(min_slider.location)
+print(min_slider.location) # location variable is used to know the location # return dictionary object ('x':20,'y':40)
 print(max_slider.location)
 #time.sleep(5)
 act = ActionChains(driver)
-act.drag_and_drop_by_offset(min_slider,20,0).perform()
+act.drag_and_drop_by_offset(min_slider,20,0).perform() # method used act.drag_and_drop_by_offset
 act.drag_and_drop_by_offset(max_slider,-30,0).perform()
 
 print("location of slider after moving")

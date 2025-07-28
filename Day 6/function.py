@@ -1,9 +1,9 @@
 # example 1
 
-# def myfun():
-#     print("hello")
-#
-# myfun()  # call the function/Invoke
+def myfun():
+    print("hello")
+
+myfun()  # call the function/Invoke
 
 #example 2
 
@@ -23,10 +23,10 @@ name("chandan kumar")
 # print(cal(12,3))
 
 #example 4 for none function
-# def fun():
-#     #return
-#     i=4
-# print(fun())
+def fun():
+    return
+    i=4
+print(fun())
 
 #example 5 :
 # def cal(a,b):

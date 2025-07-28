@@ -9,6 +9,8 @@ driver.maximize_window()
 driver.implicitly_wait(10)
 
 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+# driver.switch_to.new_window() # switch to new tab
+# driver.get("https://www.britannica.com/topic/list-of-countries-1993160")
 time.sleep(5)
 #login
 driver.find_element(By.XPATH,"//input[@placeholder='Username']").send_keys("Admin")

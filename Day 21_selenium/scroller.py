@@ -11,14 +11,14 @@ driver.implicitly_wait(10)
 driver.get("https://www.britannica.com/topic/list-of-countries-1993160")
 
 #1.scroll down page by pixel
-# driver.execute_script("window.scrollBy(0,2000)","")
+# driver.execute_script("window.scrollBy(0,2000)","") # Java script syntax as per user 2000 pixel selected
 # time.sleep(5)
 # value = driver.execute_script("return window.pageYOffset;")
 # print("pixel moved",value)
 
 #2.Scroll down the page till element visible
 # flag = driver.find_element(By.XPATH,"//a[normalize-space()='India']")
-# driver.execute_script("arguments[0].scrollIntoView();",flag)
+# driver.execute_script("arguments[0].scrollIntoView();",flag) # by giving xpath of a webelement
 # value = driver.execute_script("return window.pageYOffset;")
 # print("pixel moved",value)
 

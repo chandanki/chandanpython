@@ -118,7 +118,7 @@ class Myclass:
         self.empid=empid
         self.ename=ename
         self.sal=sal
-    def __str__(self):
-        return(self.empid)
+    def __str__(self): # type of constructor which return only string
+        return f"Employee ID: {self.empid}, Name: {self.ename}, Salary: {self.sal}"
 m1 = Myclass("7766","rr","kkk")
 print(m1)

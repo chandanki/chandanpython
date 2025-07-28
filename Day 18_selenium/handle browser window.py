@@ -15,11 +15,11 @@ windowids = driver.window_handles
 print(windowids)
 
 # Approach 1
-# parentwindow = windowids[0]
-# childwindow = windowids[1]
-# # print(parentwindow,childwindow)
-# # switch id by their value as an array
-# time.sleep(5)
+parentwindow = windowids[0]
+childwindow = windowids[1]
+print(parentwindow,childwindow)
+# switch id by their value as an array
+time.sleep(5)
 #
 # driver.switch_to.window(childwindow)
 # print(driver.title)

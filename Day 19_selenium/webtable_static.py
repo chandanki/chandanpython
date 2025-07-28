@@ -56,6 +56,6 @@ for r in range(2,noofrows+1):
     price = driver.find_element(By.XPATH, "//table[@name='BookTable']//tr["+str(r)+"]/td[4]")
     value = int(price.text.strip())
     price_sum += value
-    
+
 print(price_sum)
 
