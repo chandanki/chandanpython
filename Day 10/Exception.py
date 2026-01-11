@@ -11,7 +11,7 @@ print("exception handling successful")'''
 
 print("except block")
 try:
-    #print(10/2)
+    print(10/2)
     print(10/0)
 except :
     print("handled exception")
